@@ -1,0 +1,162 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #dedede;
+    /*color: #83af9b;*/
+    /*color: #cdb380;*/
+    /*background-color: #00314f;*/
+    background-color: #363636;
+}
+
+div {
+    clear: left;
+}
+
+h1 {
+    font-size: 2em;
+    color: #e6b450;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #e6b450;
+}
+
+a {
+    text-decoration: none
+}
+
+a:link, a:visited {
+    color: #afd7ed;
+    /*color: #cdb380;*/
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f8b195;
+}
+
+hr { 
+    /*display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;*/
+    border-top: 1px solid #71969f;
+    border-bottom: 1px solid #71969f;
+} 
+
+.main {
+    width: 1000px;
+    /*border-style: solid;*/
+    /*border-color: #eee;*/
+    /*border-radius: 10px;*/
+    margin: 5px auto;
+    /*margin: 10px;*/
+    /*margin: 10px 10px 10px 10px;*/
+    padding: 20px;
+}
+
+
+.name {
+    margin-left: 0;
+}
+
+.header{
+    line-height: 1.4em;
+    margin: 0;
+}
+
+img.me {
+    margin-left: 30px;
+    /*border:2px solid #fff;*/
+    border-radius: 5px;
+}
+
+.news {
+    margin-top: 40px;
+}
+
+.news ul {
+    list-style-type: none;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0;
+}
+.news li {
+    margin: 0;
+    padding: 0;
+    text-indent: -80px;
+    padding-left: 80px;
+}
+
+.news span {
+    color: #f67280;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 0.8em;
+}
+
+.papers {
+    margin-top: 40px;
+}
+
+.paper_img_wrapper {
+    float: left;
+    padding-right: 50px;
+}
+
+.paper_img {
+    width:250px;
+    /*max-height: 150px;*/
+}
+
+.paper_text {
+    text-align: left;
+    line-height: 1.25em;
+    font-size: 0.9em;
+}
+
+.paper_title {
+    /*color: #f67280;*/
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.paper_authors {
+    /*padding-left: 25px;*/
+    font-style: italic;
+}
+
+.paper_conference {
+    /*padding-left: 25px;*/
+}
+
+.paper_misc {
+    /*padding-left: 25px;*/
+}
+
+.projects {
+    margin-top: 40px;
+}
+
+.misc {
+    margin-top: 40px;
+}
+
+.text-red {
+  color: #f67280 !important;
+}
+
+.indent{
+    text-indent: 0px;
+    padding-left: 80px;
+}
+
+.copyright {
+    margin-top: 60px;
+    font-size: 0.8em;
+}
